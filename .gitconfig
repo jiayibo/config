@@ -1,0 +1,22 @@
+[user]
+	email = arlan.jia@gmail.com
+	name = Jia Yibo
+[color]
+    branch = auto
+    diff = auto
+    status = auto
+    ui = auto
+    interactive = auto
+[merge]
+    tool = kdiff3
+[mergetool "kdiff3"]
+    keepBackup = false
+    trustExitCode = false
+[core]
+    editor = vim
+[alias]
+    br = branch
+    st = status
+    ci = commit
+    co = checkout
+    lg = log --graph --decorate --pretty=oneline --abbrev-commit
