@@ -2,10 +2,10 @@
 import os, urllib2, re, sys, commands, random, time
 
 # -- Changable Variables
-url             = 'http://interfacelift.com/wallpaper/downloads/random/widescreen/1680x1050/' #Browse to the page that has all the wallpaper you want and paste here
-directory       = '/home/CORPUSERS/28850631/Pictures/wallpapers' #Path to download to
+url             = 'https://interfacelift.com/wallpaper/downloads/random/widescreen/2880x1800/' #Browse to the page that has all the wallpaper you want and paste here
+directory       = '/Users/jiayibo/Pictures/Wallpapers' #Path to download to
 stoponfind      = '1' # Set to 0 to download all files even if the file exists and 1 to stop when it finds where it left off
-wgetpath        = '/usr/bin/wget' #Default on linux systems /usr/local/bin/wget on freebsd
+wgetpath        = '/usr/local/bin/wget' #Default on linux systems /usr/local/bin/wget on freebsd
 
 # -- Should not need to edit below here unless something stops working --
 useragent       = 'Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.2.3) Gecko/20100401 Firefox/3.6.3 (.NET CLR 3.5.30729)' #Fake useragent since wget is blocked
